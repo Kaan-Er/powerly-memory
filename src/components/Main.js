@@ -27,11 +27,13 @@ const Main = () => {
 
   useEffect(() => {
     if (foundAnimals.length == 12) {
-      dispatch(setAnimals());
-      dispatch(clearFirstAnimal());
-      dispatch(clearSecondAnimal());
-      dispatch(clearFoundAnimals());
       notify();
+      setTimeout(function () {
+        dispatch(setAnimals());
+        dispatch(clearFirstAnimal());
+        dispatch(clearSecondAnimal());
+        dispatch(clearFoundAnimals());
+      }, 3000);
     }
   }, [foundAnimals]);
 

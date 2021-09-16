@@ -5,19 +5,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import question from "../assets/img/animals/question.png";
 import { useSelector } from "react-redux";
 
-const useStyles = makeStyles({
-  root: {
-    width: 150,
-    margin: "20px 10px",
-    backgroundColor: "#f1efe5",
-  },
-  media: {
-    height: 140,
-  },
-});
-
 export default function MediaCard({ name, id, select }) {
-  const classes = useStyles();
   const image = require(`../assets/img/animals/${name}.png`);
   const foundAnimals = useSelector((state) => state.animals.foundAnimals);
   var isFound = foundAnimals.includes(name);
@@ -45,7 +33,7 @@ export default function MediaCard({ name, id, select }) {
               ? image.default
               : question
           }
-          title="Contemplative Reptile"
+          title="Don't Forget :)"
         />
       </CardActionArea>
     </Card>
