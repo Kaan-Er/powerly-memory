@@ -58,8 +58,8 @@ const Main = () => {
     }, 500);
   };
 
-  const [Correct] = useSound(correct, { volume: 5 });
-  const [Incorrect] = useSound(incorrect, { volume: 5 });
+  const [Correct] = useSound(correct, { volume: 3 });
+  const [Incorrect] = useSound(incorrect, { volume: 3 });
 
   const notify = () => {
     toast.success("🦄 Wow so easy!", {

@@ -30,14 +30,14 @@ export default function MediaCard({ name, id, select }) {
 
   return (
     <Card
-      className={classes.root}
+      className="animal-card"
       onClick={() => {
         select(id, name);
       }}
     >
       <CardActionArea>
         <CardMedia
-          className={classes.media}
+          className="animal-card-media"
           image={
             isFound ||
             selectedFirstAnimal.id === id ||
