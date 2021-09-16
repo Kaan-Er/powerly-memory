@@ -7,6 +7,46 @@
 
 .navbar-section {
   width: 100%;
-  height: 8vh;
-  background-color: bisque;
+  height: 10vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1efe5;
+
+}
+
+.main-wrapper {
+  min-height: 90vh;
+  background-color: #f1efe5;
+  position: relative;
+  width: 100%;
+}
+
+.main-section {
+  height: 100%;
+  text-align: -webkit-center;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-width: 5px;
+  border-color: #5DB78D;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+.title-text {
+  align-self: center;
+  padding: 5px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #4F4F4F;
+}
+
+.icons {
+  align-self: center;
+  margin: 5px;
 }
