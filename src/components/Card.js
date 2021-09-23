@@ -20,7 +20,11 @@ export default function MediaCard({ name, id, select }) {
     <Card
       className="animal-card"
       onClick={() => {
-        if (!selectedSecondAnimal.name && !isFound) {
+        if (
+          !selectedSecondAnimal.name &&
+          !isFound &&
+          selectedFirstAnimal.id !== id
+        ) {
           select(id, name);
         }
       }}
