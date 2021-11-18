@@ -7,7 +7,7 @@
 
 .navbar-section {
   width: 100%;
-  height: 10vh;
+  height: 12vh;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
 }
 
 .main-wrapper {
-  min-height: 90vh;
+  min-height: 86vh;
   background-color: #f1efe5;
   position: relative;
   width: 100%;
@@ -52,19 +52,23 @@
 }
 
 .animal-card {
-  width: 150px;
+  width: 100px;
   margin: 20px 10px;
 }
 
 .animal-card-media {
-  height: 140px;
+  height: 100px;
   background-color: #f1efe5;
 }
 
 @media (max-width:576px) {
   .animal-card {
-    width: 110px;
-    height: 130px;
-    margin: 10px 5px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+  }
+
+  .animal-card-media {
+    height: 60px;
   }
 }
