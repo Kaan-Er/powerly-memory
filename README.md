@@ -17,3 +17,7 @@
 ## Visit Live Demo
 
 https://powerly-memory.herokuapp.com/
+
+## If you want to play this game with your friend
+
+https://powerly-memory-online.herokuapp.com/
