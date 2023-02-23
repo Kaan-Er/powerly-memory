@@ -1,6 +1,6 @@
 # Powerly Memory
 
-### Strengthen your memory by trying to find the same animals in the game!
+### Strengthen your memory by trying to find the same animals in the game. And also you can play this game by video chatting with your friend.
 
 
 ## Used Technologies
@@ -16,8 +16,5 @@
 
 ## Visit Live Demo
 
-https://powerly-memory.herokuapp.com/
+https://pm.kaaner.me
 
-## If you want to play this game with your friend
-
-https://powerly-memory-online.herokuapp.com/
